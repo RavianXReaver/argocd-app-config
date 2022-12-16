@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image:  ravianxreaver/go_api_service:v2
+        image:  ravianxreaver/go_api_service:v3
         resources:
           limits:
             memory: "512Mi"
