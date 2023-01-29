@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ravianxreaver/go_api_service:v15
+        image: ravianxreaver/go_api_service:v16
         env: 
         - name: service1
           value: backend1:10001
