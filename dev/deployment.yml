@@ -17,9 +17,9 @@ spec:
         image: ravianxreaver/go_api_service:v12
         env: 
         - name: service1
-          value: backend1
+          value: backend1:10001
         - name: service2
-          value: backend2
+          value: backend2:10002
         resources:
           limits:
             memory: "512Mi"
