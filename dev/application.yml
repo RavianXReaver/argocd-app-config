@@ -20,7 +20,7 @@ spec:
     - CreateNamespace=true
     managedNamespaceMetadata:
       labels: 
-        label1: istio-injection=enabled
+        istio-injection: enabled
 
     automated: 
       selfHeal: true
